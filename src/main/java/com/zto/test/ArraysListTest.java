@@ -26,7 +26,7 @@ class A implements Runnable{
         t1.start();
         t2.start();
         Thread.sleep(1000);
-        System.out.println(list.size());
+        System.out.println("我们期待的值:"+list.size());
 
 
     }
